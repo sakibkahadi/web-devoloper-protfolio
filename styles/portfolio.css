@@ -2,6 +2,8 @@
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    
+    
 }
 /* nav related styles*/
 nav{
@@ -25,7 +27,7 @@ nav{
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 35px 19px 36px;
+    padding: 15px 35px 15px 35px;
 }
 nav > ul{
     display: flex;
@@ -43,12 +45,39 @@ nav a{
 /*header related styles*/
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px -px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    margin-top: 5px;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-top: 5px;
+}
+.btn-destination{
+    /* margin-right: 40px; */
+    margin-bottom: 10px;
 }
