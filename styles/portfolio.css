@@ -84,8 +84,8 @@ nav a{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #fff8f3;
-    margin-top: 130px;
+    background: #232322;
+    margin: 130px 0px;
 }
 .section-title{
     color: #181818;
@@ -94,7 +94,18 @@ nav a{
     font-weight: 700px;
 }
 .section-description{
-    color: #757575;
+    color: #757575 ;
     text-align: center;
     font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
