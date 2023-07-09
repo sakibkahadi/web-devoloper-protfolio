@@ -50,7 +50,8 @@ nav a{
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+    background-size: 500px;
+
     
 }
 .banner{
@@ -65,6 +66,7 @@ nav a{
 }
 .banner .profile-pic{
     width: 500px;
+    margin-bottom: -5px;
 }
 .banner-greeting{
     font-size: 45px;
@@ -76,13 +78,13 @@ nav a{
     font-weight: 700;
     margin-bottom: 20px;
 }
-.banner-description{
+/* .banner-description{
     margin-top: 5px;
-}
-.btn-destination{
+} */
+/* .btn-destination{
     /* margin-right: 40px; */
     margin-bottom: 10px;
-}
+} */
 .about{
     padding: 130px;
     border-radius: 10px;
@@ -169,4 +171,20 @@ footer{
     background: #fff8f3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+
+}
+.contact input[type="text"], input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+
 }
